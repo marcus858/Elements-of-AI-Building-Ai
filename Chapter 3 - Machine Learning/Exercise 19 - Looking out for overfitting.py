@@ -41,7 +41,7 @@ def main(X_train, X_test, y_train, y_test):
         y_predict[i] = np.round(np.mean(nearest_labels))
     print(y_predict)
 
-main(x_train, y_train, x_test, y_test)
+main(x_train, x_test, y_train, y_test)
 
 print("training accuracy: %f" % 0.0)
 print("testing accuracy: %f" % 0.0)
